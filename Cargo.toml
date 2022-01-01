@@ -1,5 +1,5 @@
 [package]
-name = "rust-util"
+name = "gigurra-rust-util"
 version = "0.1.0"
 edition = "2021"
 description = "Testing to build a utils lib while learning rust"
