@@ -5,17 +5,17 @@ pub mod string;
 pub mod logging;
 pub mod crypt;
 
-pub use serde_yaml;
-pub use serde;
-pub use regex;
-pub use log;
-pub use simple_logger;
-pub use itertools;
-pub use clap;
-pub use aes_gcm;
-pub use rand;
-pub use rand_chacha;
-pub use hex;
+pub use serde_yaml as serde_yaml;
+pub use serde as serde;
+pub use regex as regex;
+pub use log as log;
+pub use simple_logger as simple_logger;
+pub use itertools as itertools;
+pub use clap as clap;
+pub use aes_gcm as aes_gcm;
+pub use rand as rand;
+pub use rand_chacha as rand_chacha;
+pub use hex as hex;
 
 #[cfg(test)]
 mod tests {
